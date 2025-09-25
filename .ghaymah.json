@@ -1,0 +1,17 @@
+{
+  "id": "013fe922-1a83-4f55-b2b8-6bfc4cd887b1",
+  "name": "new-folder-4",
+  "projectId": "95dfa161-1bef-49a7-a4af-1baa4c2ac246",
+  "ports": [
+    {
+      "expose": true,
+      "number": 80
+    }
+  ],
+  "publicAccess": {
+    "enabled": true,
+    "domain": "auto"
+  },
+  "resourceTier": "t3",
+  "dockerFileName": "Dockerfile"
+}

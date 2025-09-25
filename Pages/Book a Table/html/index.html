@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../../../bootstrap-5.3.8-dist/css/bootstrap.css"/> -->
+    <!-- <link rel="stylesheet" href="../../../bootstrap-5.3.8-dist/css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="../../bootstrap-5.3.8-dist/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="../../../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+</head>
+
+<body id="Book">
+    <!-- <body style="background-color: #222831;" id="about"> -->
+
+    <!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<div class="container-fluid px-4 px-lg-5">
+			<a class="navbar-brand" href="../../Home/html/index.html">EL-KHEDEWY</a>
+			<button class="navbar-toggler navbar-toggler-right border-white" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation" style="color: white">
+				List
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link" href="../../Home/html/index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="../../Menu/html/index.html">Menu</a></li>
+					<li class="nav-item"><a class="nav-link" href="#Book">Book</a></li>
+					<li class="nav-item"><a class="nav-link" href="../../About us/html/index.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="../../Contact/html/index.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <!-- nav -->
+
+    <!-- background -->
+    <section>
+        <div class="hero">
+            <img src="../imgs/1.png" class="hero-img"> <!-- the restaurant from the outside -->
+
+            <div class="hero-text">
+                <h2>Book a Table at</h2>
+                <p>EL-KHEDEWY</p>
+                <p>from quick catch-ups to big celebrations, our benches are built for it. round up your favourites and
+                    book your spot. good food, good vibes, great company</p>
+            </div>
+        </div>
+    </section>
+    <!-- background -->
+
+    <!-- booking -->
+    <div class="booking-container">
+
+        <header class="booking-header">
+            <h1>Book a Table</h1>
+            <p>We would be happy to reserve a table for you at our restaurant.</p>
+        </header>
+
+        <form class="booking-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g., 01012345678" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1" max="20" placeholder="e.g., 4" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="requests">Special Requests (Optional)</label>
+                    <textarea id="requests" name="requests" rows="4"
+                        placeholder="e.g., a table near the window, birthday celebration..."></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Confirm Reservation</button>
+        </form>
+
+    </div>
+    <!-- booking -->
+
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <h6>EL-KHEDEWY</h6>
+                    <p class="text-justify">
+                        An authentic culinary experience where classic Egyptian flavors meet modern elegance. Every dish
+                        tells a story of heritage and passion. We invite you to be part of our story.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="../../Home/html/index.html">Home</a></li>
+                        <li><a href="../../Menu/html/index.html">Menu</a></li>
+                        <li><a href="../../Book a Table/html/index.html">Book a Table</a></li>
+                        <li><a href="../../About us/html/index.html">About Us</a></li>
+                        <li><a href="../../Contact/html/index.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-6">
+                    <h6>Contact</h6>
+                    <ul class="footer-links contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Nile St, Zamalek</li>
+                        <li><i class="fas fa-phone"></i> +20 101 234 5678</li>
+                        <li><i class="fas fa-envelope"></i> contact@elkhedewy.com</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <h6>Opening Hours</h6>
+                    <ul class="footer-links">
+                        <li>Sat - Thu: 12pm - 12am</li>
+                        <li>Friday: 2pm - 1am</li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-12">
+                    <p class="copyright-text">Copyright &copy; 2025 All Rights Reserved by
+                        <a href="#">EL-KHEDEWY</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <ul class="social-icons">
+                        <li>
+                            <a class="facebook" href="https://www.facebook.com" target="_blank">f</a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="https://www.instagram.com" target="_blank">insta</a>
+                        </li>
+                        <li>
+                            <a class="twitter" href="https://x.com/" target="_blank">x</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <!-- <script src="../node_modules/jquery/dist/jquery.js"></script> -->
+    <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script> -->
+    <!-- <script src="../../node_modules/jquery/dist/jquery.min.js"></script> -->
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- <script src="../../../bootstrap-5.3.8-dist/js/bootstrap.min.js"></script> -->
+    <!-- <script src="../../../bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script> -->
+    <!-- <script src="../../../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../../../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>

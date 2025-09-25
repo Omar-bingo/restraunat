@@ -1,0 +1,11 @@
+# ملفات النظام
+.git
+.gitignore
+.DS_Store
+Thumbs.db
+
+# ملفات المشروع غير الضرورية
+*.md
+LICENSE
+.vscode/
+node_modules/
